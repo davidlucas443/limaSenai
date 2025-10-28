@@ -53,7 +53,7 @@ fieldset {
     font-size: 9px;
 }
 
-button{
+form > button {
     height: 35.4px;
     background-color: var(--green);
     color: var(--white);
@@ -70,6 +70,7 @@ button{
 }
 
 img {
+    object-fit: cover;
     width: 50.8%;
 }
 
@@ -101,7 +102,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    margin-top: 34px;
     gap: 4.5px;
 }
 
@@ -111,10 +112,54 @@ a{
     background-color: var(--border-gray);
 }
 
-.divider>p{
+.divider>p {
     font-size: 9px;
     color: var(--black);
     font-weight: 500;
 }
 
+.sso-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
 
+    margin-top: 89px;
+    margin-bottom: 46px;
+
+}
+.sso-container img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.sso-container  p { 
+    font-size: 12px;
+}
+
+.sso-container button {
+    height: 32px;
+    gap: 10px;
+    padding: 4px 20px;
+    border: 1px solid var(--border-gray);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dont-have{
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: var(--black);
+    margin-top: 22px;
+}
+
+.dont-have a {
+    color: var(--blue);
+    font-size: 14px;
+}
